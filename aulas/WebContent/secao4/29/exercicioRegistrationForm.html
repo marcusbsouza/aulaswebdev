@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registro</title>
+</head>
+<body>
+	<h1>Registro</h1>
+	<form>
+		<p>
+			<label for="primeiroNome">Primeiro Nome:</label>
+			<input id="primeiroNome" name="primeiroNome" type="text" placeholder="Primeiro Nome" required>
+			<label for="ultimoNome">Último Nome:</label>
+			<input id="ultimoNome"  name="ultimoNome" type="text" placeholder="Úlitmo Nome" required>
+		</p>
+		<p>
+			<label for="masculinoRadio">Masculino</label>
+			<input id="masculinoRadio" name="sexoRadio" type="radio" value="masc">
+			<label for="femininoRadio">Feminino</label>
+			<input id="femininoRadio" name="sexoRadio" type="radio" value="fem">
+			<label for="outroRadio">Outro</label>
+			<input id="outoRadio" name="sexoRadio" type="radio" value="outro">
+		</p>
+		<p>
+			<label for="email">E-mail</label>
+			<input id="email" name="email" type="email" placeholder="E-mail" required>
+			<label for="senha">Senha</label>
+			<input id="senha"  name="senha" type="password" placeholder="Senha" pattern=".{5,10}" required title="Senha deve conter entre 5 e 10 caracteres">		
+		</p>
+		<p>
+			<label>Birthday:</label>
+			<select name="diaAniversario">
+				<option>Dia</option>
+				<option>1</option>
+				<option>2</option>
+			</select>
+			<select name="mesAniversario">
+				<option>Mês</option>
+				<option>Janeiro</option>
+				<option>Fevereiro</option>
+			</select>
+			<select name="anoAniversario">
+				<option>Ano</option>
+				<option>1976</option>
+				<option>1977</option>
+			</select>
+		</p>
+		<p>
+			<label for="concordo">Eu concordo com os termos e condições</label>
+			<input id="concordo" name="concordo" type="checkbox">
+		</p>
+		
+		<button>Enviar</button>
+	</form>
+	
+	
+</body>
+</html>
