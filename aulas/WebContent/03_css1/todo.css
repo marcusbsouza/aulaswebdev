@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+body {
+	background: orange;
+}
+li {
+	border: 1px solid red;
+}
+#especial {
+	background: rgba(100,100,0, .2);
+	color: red;
+}
+.destacar {
+	text-decoration: line-through;
+}
