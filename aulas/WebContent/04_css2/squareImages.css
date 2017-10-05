@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+p {
+	font-family: Raleway;
+	margin-left: 1.66%;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #f1f1f1; 
+	width: 30%;
+}
+img {
+	width: 30%; /* relativo ao body */
+	float: left;
+	margin: 1.66%; /* cada imagem vale 30%, ou seja sobra 10% para 6 margens = 1.66% */
+}

@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+/*Star Selector*/
+* {
+	/* border: 1px solid lightgrey; */
+}
+
+/*Descendant Selector*/
+li a {
+	color: green;
+}
+
+/*Adjacent Selector*/
+h4 + ul {
+	border: 4px dashed yellow;
+}
+
+h1 + a {
+	border: 4px dashed blue;
+}
+
+/*Attribute Selector*/
+a[href="http://google.com"] {
+	background: rgba(50,0,0,.4);
+}
+input[type="text"] {
+	color: lime;
+}
+input[type="password"] {
+	color: maroon;
+}
+
+/*nth of type*/
+ul:nth-of-type(2) {
+	background: rgba(10,10,10,.5);
+}

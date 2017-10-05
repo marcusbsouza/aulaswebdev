@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+body {
+	border: 2px solid red;
+	padding: 5px;
+	margin: 0 0 0 0;
+	width: inherit;
+}
+p {
+	/* Content - Width and Height */
+	/* width: 200px;
+	height: 300px; */
+	width: 50%;
+	height: 50%;
+	
+	/* Border */
+	border: 2px solid blue;
+	
+	/* Padding */
+	padding: 5px;
+	padding-left: 20px;
+	padding-top: 40px;
+	
+	/* Margin */
+	margin: 0 0 0 0;
+	
+}

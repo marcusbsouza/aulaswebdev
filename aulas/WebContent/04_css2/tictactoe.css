@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+h1 {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+/******* Solução Professor ******/
+td {
+	width: 100px;
+	height: 100px;
+}
+.vertical {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+/******* Minha  solução não usa as classes do html ******  
+td {
+	padding: 50px;
+}
+
+tr:nth-of-type(1) {
+	border-bottom: 1px solid black;
+}
+tr:nth-of-type(2) {
+	border-bottom: 1px solid black;
+}
+tr td:nth-of-type(1) {
+	border-right: 1px solid black;
+}
+tr td:nth-of-type(2) {
+	border-right: 1px solid black;
+} */
+
+
